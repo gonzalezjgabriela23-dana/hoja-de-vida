@@ -15,6 +15,17 @@ export default function Layout() {
           ),
         }}
       />
+      {/* Pestaña de Estudios */}
+      <Tabs.Screen
+        name="estudios"
+        options={{
+          title: "Estudios",
+          headerTitle: "Estudios",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="school-outline" size={size} color={color as string} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

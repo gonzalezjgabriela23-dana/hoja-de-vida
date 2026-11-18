@@ -15,7 +15,7 @@ const Inicio = () => {
     <ScrollView style={estilos.contenedor} contentContainerStyle={estilos.contenido}>
       <View style={estilos.avatarContenedor}>
         <Ionicons name="person-circle" size={100} color="#2563eb" />
-        <Text style={estilos.nombre}>Laurith Sofía Gil Rodríguez</Text>
+        <Text style={estilos.nombre}>Dana Gonzalez</Text>
         <Text style={estilos.profesion}>Tecnólogo en ADSO</Text>
       </View>
 
