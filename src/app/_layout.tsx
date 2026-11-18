@@ -26,6 +26,17 @@ export default function Layout() {
           ),
         }}
       />
+      {/* Pestaña de Experiencia */}
+      <Tabs.Screen
+        name="experiencia"
+        options={{
+          title: "Experiencia",
+          headerTitle: "Experiencia",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="briefcase-outline" size={size} color={color as string} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
