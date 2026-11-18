@@ -29,5 +29,16 @@ const estilos = StyleSheet.create({
   titulo: { fontSize: 16, fontWeight: "bold" },
   subtitulo: { fontSize: 14, color: "#555" },
   anio: { fontSize: 12, color: "#888" },
-  badge: { color: "#6366f1", fontWeight: "bold", fontSize: 12 },
+ badge: {
+    alignSelf: "flex-start",
+    backgroundColor: "#7c3aed",
+    color: "#ffffff",
+    fontSize: 12,
+    fontWeight: "bold",
+    paddingHorizontal: 10,
+    paddingVertical: 2,
+    borderRadius: 999,
+    overflow: "hidden",
+    marginVertical: 4,
+  },
 });
