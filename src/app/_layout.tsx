@@ -37,6 +37,17 @@ export default function Layout() {
           ),
         }}
       />
+      {/* Pestaña de Hobbies */}
+      <Tabs.Screen
+        name="hobbies"
+        options={{
+          title: "Hobbies",
+          headerTitle: "Hobbies",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="heart-outline" size={size} color={color as string} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
